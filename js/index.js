@@ -2,7 +2,7 @@
 
 const hacker1 = "Sergio Francalino"; // first studant (The driver)
 
-console.log(`I'm ${nome} = The driver´s and i'm ready!`); // Line put if there is a second worker, in pair
+console.log(`I'm ${hacker1} = The driver´s and i'm ready!`); // Line put if there is a second worker, in pair
 console.log(`The Driver's name is ->`, hacker1.toUpperCase()); // Method to UpperCases
 
 const hacker2 = "Helron Franklin"; // segundo personagem (The Navigator)
