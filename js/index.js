@@ -1,4 +1,5 @@
-console.log("I'm ready!");
+const nome = "Sergio Francalino";
+console.log(`I'm ${nome} and I'm ready!`);
 
 // Iteration 1: Names and Input
 //
