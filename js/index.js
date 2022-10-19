@@ -9,6 +9,17 @@ const hacker2 = "Helron Franklin"; // segundo personagem (The Navigator)
 console.log(`The navigator's name is ->`, hacker2.toLowerCase()); // Method to LowerCases
 
 // Iteration 2: Conditionals
+console.log(`The driver's name has = ${hacker1.length} characters long`) // The driver's characters long
+console.log(`The navigator's name has = ${hacker2.length} characters long`) // The navigator's characters long
 
+if (hacker1.length > hacker2.length) {
+    console.log(`1. The driver has the longest name, it has ${hacker1.length} characters`);
+
+   if (hacker1.length < hacker2.length) 
+       console.log(`2. It seems that the navigator has the longest name, it has ${hacker2.length} characters`);
+
+   if (hacker1.length === hacker2.length) 
+      console.log(`3. Wow, you both have equally long names, both has names with ${hacker2.length} characters`);
+}
 
 // Iteration 3: Loops
