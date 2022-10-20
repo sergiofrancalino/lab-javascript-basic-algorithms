@@ -84,13 +84,42 @@ else if (a == hacker2) {
 
 // Bonus 1
 
-console.log ("BONUS 1")
+console.log ("BONUS 1 - Ocorrencias da palavra 'et'")
 
 const palavra = "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi";
 
 const ocorrencias = (palavra. match(/et/g) || []). length;
-console. log(`Foram encontradas: ${ocorrencias} ocorrências da palavra "et" no texto`); // variable palavra.
+console. log(`Foram encontradas: ${ocorrencias} ocorrencias da palavra "et" no texto`); // variable palavra.
 
 // BONUS 2
 
+console.log ("BONUS 2 - Palidromo")
+let phraseToCheck = "race car";
+
+let re = /[^A-Za-z0-9]/g;
+
+phraseToCheck = phraseToCheck.toLowerCase().replace(re, '');
+    
+let len = phraseToCheck.length;
+
+for (let i = 0; i < len/2; i++) {
+     
+    if (phraseToCheck[i] !== phraseToCheck[len - 1 - i]) {
+        
+        console.log("The value assigned is not a Palidrome");
+      }
+    else if (phraseToCheck[i] == phraseToCheck[len - 1 - i]){
+        
+        console.log ("The value assigned is a Palidrome");
+    }
+        
+}
+
+// Faltou resolver o loop doido. kkk
+
+
+    
+
+  
+   
 
