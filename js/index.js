@@ -62,20 +62,22 @@ const names = []
 names.push (hacker1);
 names.push (hacker2);
 names.sort();
-console.log(`Ordered names:`, names.sort());
+
+// console.log(`Ordered names in array 'nomes':`, names.sort());
 
 let a = (names.slice(0,1));
 let b = (names.slice(1,2));
 
-if (a === b) {
+
+if (hacker1 == hacker2) {
     console.log(`What!? You both (driver and navigator) have the same names.`);
 }
 
-if (a = hacker1) {
+else if (a == hacker1) {
     console.log(`The driver's name (${hacker1}) goes first.`);    
 }
 
-if (a = hacker2) {
+else if (a == hacker2) {
         console.log(`Yo, the navigator (${hacker2}) goes first definitely.`);
 }      
 
