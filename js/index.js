@@ -72,13 +72,25 @@ let b = (names.slice(1,2));
 if (hacker1 == hacker2) {
     console.log(`What!? You both (driver and navigator) have the same names.`);
 }
-
 else if (a == hacker1) {
     console.log(`The driver's name (${hacker1}) goes first.`);    
 }
-
 else if (a == hacker2) {
         console.log(`Yo, the navigator (${hacker2}) goes first definitely.`);
 }      
 
-// SAFR, finally finished slowlest guy ;(. Lets learn better! 
+// SAFR, finally finished slowlest guy ;(. Lets learn better!
+
+
+// Bonus 1
+
+console.log ("BONUS 1")
+
+const palavra = "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi";
+
+const ocorrencias = (palavra. match(/et/g) || []). length;
+console. log(`Foram encontradas: ${ocorrencias} ocorrências da palavra "et" no texto`); // variable palavra.
+
+// BONUS 2
+
+
