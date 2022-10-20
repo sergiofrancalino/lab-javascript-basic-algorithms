@@ -67,14 +67,16 @@ console.log(`Ordered names:`, names.sort());
 let a = (names.slice(0,1));
 let b = (names.slice(1,2));
 
-if (a = hacker1) {
-    console.log(`The driver's name (${hacker1}) goes first.`);
+if (a === b) {
+    console.log(`What!? You both (driver and navigator) have the same names.`);
+}
 
-} else if (a = hacker2) {
-    console.log(`Yo, the navigator (${hacker2}) goes first definitely.`);
+if (a = hacker1) {
+    console.log(`The driver's name (${hacker1}) goes first.`);    
 }
-else if (a === b) {
-    console.log(`What!? You both (driver and navigator) have the same names.`);  
-}
+
+if (a = hacker2) {
+        console.log(`Yo, the navigator (${hacker2}) goes first definitely.`);
+}      
 
 // SAFR, finally finished slowlest guy ;(. Lets learn better! 
